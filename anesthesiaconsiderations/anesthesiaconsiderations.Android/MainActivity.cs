@@ -12,7 +12,7 @@ using Xamarin.Forms.Platform.Android;
 
 namespace FormsGallery.Droid
 {
-    [Activity(Label = "anesthesiaconsiderations", MainLauncher = true,
+    [Activity(Label = "anesthesiaconsiderations_Android", MainLauncher = true,
         ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize)]
     public class MainActivity : FormsApplicationActivity
     {
