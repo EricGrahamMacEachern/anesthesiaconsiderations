@@ -1,0 +1,47 @@
+Unhandled Exception:
+
+
+
+Foundation.MonoTouchException: Objective-C exception thrown.  Name: NSInternalInconsistencyException Reason: Could not load NIB in bundle: 'NSBundle </Users/user124933/Library/Developer/CoreSimulator/Devices/A01D2799-67B1-48DC-A0CA-154C0F20D8B1/data/Containers/Bundle/Application/9D7CC3B4-678D-4615-A131-DEB338D214D7/anesthesiaconsiderations.iOS.app> (loaded)' with name 'LaunchScreen'
+
+Native stack trace:
+
+	0   CoreFoundation                      0x00000001184bbb0b __exceptionPreprocess + 171
+
+	1   libobjc.A.dylib                     0x00000001189db141 objc_exception_throw + 48
+
+	2   CoreFoundation                      0x0000000118524625 +[NSException raise:format:] + 197
+
+	3   UIKit                               0x000000010e996b24 -[UINib instantiateWithOwner:options:] + 501
+
+	4   UIKit                               0x000000010e9992c4 -[NSBundle(UINSBundleAdditions) loadNibNamed:owner:options:] + 222
+
+	5   UIKit                               0x000000010e58f78a -[UIApplication _loadMainNibFileNamed:bundle:] + 75
+
+	6   UIKit                               0x000000010e58fdb3 -[UIApplication _loadMainInterfaceFile] + 260
+
+	7   UIKit                               0x000000010e58e456 -[UIApplication _runWithMainScene:transitionContext:completion:] + 1407
+
+	8   UIKit                               0x000000010e58b793 -[UIApplication workspaceDidEndTransaction:] + 182
+
+	9   FrontBoardServices                  0x0000000119e995f6 __FBSSERIALQUEUE_IS_CALLING_OUT_TO_A_BLOCK__ + 24
+
+	10  FrontBoardServices                  0x0000000119e9946d -[FBSSerialQueue _performNext] + 186
+
+	11  FrontBoardServices                  0x0000000119e997f6 -[FBSSerialQueue _performNextFromRunLoopSource] + 45
+
+	12  CoreFoundation                      0x0000000118461c01 __CFRUNLOOP_IS_CALLING_OUT_TO_A_SOURCE0_PERFORM_FUNCTION__ + 17
+
+	13  CoreFoundation                      0x00000001184470cf __CFRunLoopDoSources0 + 527
+
+	14  CoreFoundation                      0x00000001184465ff __CFRunLoopRun + 911
+
+	15  CoreFoundation                      0x0000000118446016 CFRunLoopRunSpecific + 406
+
+	16  UIKit                               0x000000010e58a02f -[UIApplication _run] + 468
+
+	17  UIKit                               0x000000010e5900d4 UIApplicationMain + 159
+
+	18  ???                                 0x0000000130bf354c 0x0 + 5112804684
+
+	19  ???                                 0x0000000130bf318d 0x0 + 5112803725

@@ -44,8 +44,8 @@
     <MtouchDebug>true</MtouchDebug>
     <BuildIpa>True</BuildIpa>
     <IpaIncludeArtwork>False</IpaIncludeArtwork>
-    <CodesignKey>iPhone Distribution: Eric MacEachern (ZYCAHW5WQ7)</CodesignKey>
-    <CodesignProvision>0570f79a-6c4c-456a-8340-53f181ee4889</CodesignProvision>
+    <CodesignKey>iPhone Developer: Eric MacEachern (6G99N77U76)</CodesignKey>
+    <CodesignProvision>9cec944a-f677-4c89-b1c9-d0a90a026847</CodesignProvision>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
@@ -129,6 +129,7 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="anesthesiaconsiderations\App.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="anesthesiaconsiderations.iOS_TemporaryKey.pfx" />
