@@ -80,9 +80,10 @@
     <WarningLevel>4</WarningLevel>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Developer</CodesignKey>
+    <CodesignKey>iPhone Developer: Eric MacEachern (6G99N77U76)</CodesignKey>
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchDebug>False</MtouchDebug>
+    <CodesignProvision>9cec944a-f677-4c89-b1c9-d0a90a026847</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Ad-Hoc|iPhone' ">
     <DebugType>none</DebugType>
@@ -135,8 +136,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <ITunesArtwork Include="iTunesArtwork%402x" />
     <None Include="packages.config" />
-    <InterfaceDefinition Include="Resources\LaunchScreen.xib" />
     <None Include="Properties\app.manifest" />
+    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Icon-60%402x.png" />
@@ -228,7 +229,7 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Info.plist" />
+    <None Include="Info.plist" />
   </ItemGroup>
   <Import Project="..\anesthesiaconsiderations\anesthesiaconsiderations.projitems" Label="Shared" Condition="Exists('..\anesthesiaconsiderations\anesthesiaconsiderations.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
