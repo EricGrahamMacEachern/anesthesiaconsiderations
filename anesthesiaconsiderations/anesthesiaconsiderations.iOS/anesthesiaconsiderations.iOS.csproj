@@ -129,7 +129,6 @@
     <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="anesthesiaconsiderations\App.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="AppDelegate.cs" />
     <None Include="anesthesiaconsiderations.iOS_TemporaryKey.pfx" />
@@ -231,6 +230,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Info.plist" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="anesthesiaconsiderations\" />
   </ItemGroup>
   <Import Project="..\anesthesiaconsiderations\anesthesiaconsiderations.projitems" Label="Shared" Condition="Exists('..\anesthesiaconsiderations\anesthesiaconsiderations.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />

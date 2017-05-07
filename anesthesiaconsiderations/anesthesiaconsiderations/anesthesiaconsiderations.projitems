@@ -38,7 +38,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)AorticDissection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AorticRegurgitation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AorticStenosis.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)App_.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)App.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ARDS.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ArnoldChiariMalformation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ASAToxicity.cs" />

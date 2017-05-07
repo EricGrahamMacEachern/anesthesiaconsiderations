@@ -7,9 +7,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    public class App : Application
+	public class App : Application
     {
-        public App()
+		public App ()
         {
             MainPage = new NavigationPage(new HomePage());
         }
