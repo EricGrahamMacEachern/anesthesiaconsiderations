@@ -137,7 +137,6 @@
     <ITunesArtwork Include="iTunesArtwork%402x" />
     <None Include="packages.config" />
     <None Include="Properties\app.manifest" />
-    <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\Icon-60%402x.png" />
