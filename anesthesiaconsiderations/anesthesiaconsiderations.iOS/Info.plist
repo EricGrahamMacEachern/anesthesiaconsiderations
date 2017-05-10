@@ -36,18 +36,15 @@
 	<array>
 		<string>Icon-60@2x.png</string>
 		<string>Icon-76@2x.png</string>
-		<string>Icon-83.5@2x.png</string>
 	</array>
 	<key>NSHomeKitUsageDescription</key>
 	<string>Allows the app to control HomeKit enabled devices.</string>
-	<key>NSMainNibFile</key>
-	<string>LaunchScreen</string>
 	<key>UIStatusBarStyle</key>
 	<string>UIStatusBarStyleBlackOpaque</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.995</string>
+	<string>0.996</string>
 	<key>CFBundleVersion</key>
-	<string>0.995</string>
+	<string>0.996</string>
 	<key>CFBundleDisplayName</key>
 	<string>anesthesiaconsiderations</string>
 </dict>
