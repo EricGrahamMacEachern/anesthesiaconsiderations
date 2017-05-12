@@ -47,5 +47,7 @@
 	<string>0.996</string>
 	<key>CFBundleDisplayName</key>
 	<string>anesthesiaconsiderations</string>
+	<key>UIRequiresFullScreen</key>
+    <string>YES</string>
 </dict>
 </plist>
