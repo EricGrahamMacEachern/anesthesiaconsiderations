@@ -36,6 +36,7 @@
 	<array>
 		<string>Icon-60@2x.png</string>
 		<string>Icon-76@2x.png</string>
+		<string>Icon-83.5@2x.png</string>
 	</array>
 	<key>NSHomeKitUsageDescription</key>
 	<string>Allows the app to control HomeKit enabled devices.</string>
@@ -48,6 +49,6 @@
 	<key>CFBundleDisplayName</key>
 	<string>anesthesiaconsiderations</string>
 	<key>UIRequiresFullScreen</key>
-    <string>YES</string>
+	<string>YES</string>
 </dict>
 </plist>
