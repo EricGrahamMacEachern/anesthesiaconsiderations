@@ -839,6 +839,12 @@ namespace FormsGallery
                                     Source = ImageSource.FromFile("treatmentchoices.png")
                                 }
 
+                                new Label
+                                {
+                                    Text = "\n\n",
+                                    FontSize = 5,
+                                },
+
                             }
                         },
 

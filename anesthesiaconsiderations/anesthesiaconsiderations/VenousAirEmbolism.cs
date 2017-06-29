@@ -450,7 +450,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Lower the head position & compress the jugular veins ",
+                                    Text = "Lower the head position & compress the jugular veins (if surgical site above the neck)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -557,7 +557,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Closed chest cardiac massage (chest compressions)",
+                                    Text = "Chest compressions",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

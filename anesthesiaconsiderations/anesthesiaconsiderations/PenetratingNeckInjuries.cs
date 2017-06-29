@@ -133,7 +133,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Laryngeal/tracheobronchial tree distruption",
+                                    Text = "Laryngeal/tracheobronchial tree disruption",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

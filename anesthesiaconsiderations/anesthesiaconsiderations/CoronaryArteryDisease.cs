@@ -424,7 +424,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Drug eluting stent: 1 year ",
+                                    Text = "Drug eluting stent: 1 yearn (but could be less; guidelines are evolving) ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

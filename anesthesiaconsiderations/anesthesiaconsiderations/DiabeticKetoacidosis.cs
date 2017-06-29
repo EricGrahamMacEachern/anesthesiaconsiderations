@@ -1283,7 +1283,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = " Consider sodium bicarbonate if pH < 7 & myocardial dysfunction or vasodilation or life-threatening hyperkalemia \n\n ",
+                                    Text = "Consider sodium bicarbonate if pH < 7 & myocardial dysfunction or vasodilation or life-threatening hyperkalemia \n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1325,7 +1325,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = " Cerebral edema ",
+                                    Text = "Cerebral edema ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

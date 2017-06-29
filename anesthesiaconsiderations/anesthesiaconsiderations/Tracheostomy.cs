@@ -44,7 +44,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Background ",
+                                    Text = "Considerations ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -133,7 +133,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Indication for tracheostomy & concominant injuries (traumatic brain injury, C-spine injury)",
+                                    Text = "Indication for tracheostomy & concomitant injuries (traumatic brain injury, C-spine injury)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

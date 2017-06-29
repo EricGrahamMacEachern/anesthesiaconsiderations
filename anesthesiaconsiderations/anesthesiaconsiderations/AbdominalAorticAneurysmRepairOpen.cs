@@ -26,6 +26,8 @@ namespace FormsGallery
                 HorizontalTextAlignment = TextAlignment.Center,
             };
 
+            // Needs an extra space. 
+
             ScrollView scrollView = new ScrollView
             {
                 Margin = 0,

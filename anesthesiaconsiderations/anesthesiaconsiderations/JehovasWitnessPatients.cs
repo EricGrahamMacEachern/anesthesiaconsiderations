@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Jehova's Witness Patients",
+                Text = "Jehovah's Witness Patients",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -92,7 +92,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Refusal is based on religious beliefs deriving from strict literal interpretation of passages in the Bible forbidding the “eating” of blooda",
+                                    Text = "Refusal is based on religious beliefs deriving from strict literal interpretation of passages in the Bible forbidding the “eating” of blood",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -808,7 +808,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If necessary, follow appropriate procedures to obtain court intervention (ex pediatric patients, patients with dementia, comatose, etc)",
+                                    Text = "If necessary, follow appropriate procedures to obtain court intervention (ex pediatric patients, patients with dementia, comatose, etc)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -870,7 +870,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Physicians are ordinarily taught to preserve life, yet they must also respect a competent adult patient's right to refuse treatment",
+                                    Text = "Physicians are ordinarily taught to preserve life, yet they must also respect a competent adult patient's right to refuse treatment\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -159,6 +159,28 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
+                                        "CHF & pulmonary edema",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
                                         "RVF & pulmonary HTN",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start

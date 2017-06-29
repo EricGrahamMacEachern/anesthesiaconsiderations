@@ -261,7 +261,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Moderate risk surgery: hydrocortisone 50m IV q8h X 3 doses ",
+                                    Text = "Moderate risk surgery: hydrocortisone 50mg IV q8h X 3 doses ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

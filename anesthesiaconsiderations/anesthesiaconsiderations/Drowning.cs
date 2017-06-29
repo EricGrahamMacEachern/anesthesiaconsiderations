@@ -548,7 +548,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "100% mortality =Submersion > 25 min, Resuscitation > 25 min, Pulseless on arrival to ED, Unconscious at scene and on arrival to ED \n\n",
+                                    Text = "100% mortality = Submersion > 25 min, Resuscitation > 25 min, Pulseless on arrival to ED, Unconscious at scene and on arrival to ED \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

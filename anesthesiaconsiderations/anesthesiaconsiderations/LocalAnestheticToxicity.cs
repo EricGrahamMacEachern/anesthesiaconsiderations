@@ -196,7 +196,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cardiovascular collapse",
+                                    Text = "Cardiovascular collapse\n\n", // check for sufficient spacing
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

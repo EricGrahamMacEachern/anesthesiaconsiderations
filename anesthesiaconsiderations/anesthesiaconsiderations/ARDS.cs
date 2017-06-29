@@ -272,7 +272,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "PEEP & FiO2 to avoid hypoxemia: goal PaO2 ~60 ",
+                                        "PEEP & FiO2 to avoid hypoxemia: goal PaO2 ~60 mmHg ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -294,7 +294,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Plateau pressure: goal < 30",
+                                        "Plateau pressure: goal < 30 cmH2O",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -599,7 +599,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "With ventilation & PEEP ≥5, the severity is defined as: ",
+                                        "With ventilation & PEEP ≥5 cmH2O, the severity is defined as: ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

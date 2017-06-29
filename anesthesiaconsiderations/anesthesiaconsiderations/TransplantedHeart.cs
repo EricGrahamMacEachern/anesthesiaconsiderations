@@ -133,27 +133,6 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "High resting heart rate & loss of vagal tone",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
                                     Text = "Delayed sympathetic response to circulating catecholamines",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
@@ -238,12 +217,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ineffective indirect-acting agents (e.g. ephedrine, atropine)",
+                                    Text = "Intact response to direct-acting vasoactive drugs(e.g. epinephrine, isoproternol)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
 
                         new StackLayout
                         {
@@ -302,6 +282,27 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text = "Arrythmias",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Coronary vasculopathy (accelerated CAD): silent ischemia secondary to denervation",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -427,7 +428,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Steroids therapy: will require stress dose",
+                                    Text = "Steroid therapy: will require stress dose",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

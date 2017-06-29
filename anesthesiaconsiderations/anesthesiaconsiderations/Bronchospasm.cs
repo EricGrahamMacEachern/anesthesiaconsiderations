@@ -436,29 +436,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Pulmomary embolism/fat embolism/amniotic fluid embolism",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                      new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Pulmomary embolism/fat embolism/amniotic fluid embolism",
+                                        "Pulmonary embolism/fat embolism/amniotic fluid embolism",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -552,6 +530,8 @@ namespace FormsGallery
                                 },
                             }
                         },
+
+                      // Check if this works in the simulator. 
 
                         new StackLayout
                         {
@@ -783,6 +763,8 @@ namespace FormsGallery
                                 },
                             }
                         },
+
+               
 
                       new StackLayout
                         {

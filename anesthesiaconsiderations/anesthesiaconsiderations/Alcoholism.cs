@@ -113,7 +113,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Cardiovascular: cardiomyopathy, palpitaitons, arrhythmias ",
+                                        "Cardiovascular: cardiomyopathy, palpitations, arrhythmias ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -311,7 +311,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Alcohol Withdrawl & Syndromes",
+                                    Text = "Alcohol Withdrawal & Syndromes",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

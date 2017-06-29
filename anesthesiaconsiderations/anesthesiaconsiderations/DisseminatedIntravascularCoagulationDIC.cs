@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Disseminated Intravascular Coagulation (DIC)\n\n",
+                Text = "Disseminated Intravascular Coagulation (DIC)\n",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

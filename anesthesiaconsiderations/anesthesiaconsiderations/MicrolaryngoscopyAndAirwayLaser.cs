@@ -113,7 +113,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Double setup if anesthesia induced with rigid bronchoscope available ",
+                                    Text = "Double setup with rigid bronchoscope available ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -966,7 +966,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Safety Methods Microlaryngoscopy + Laser ",
+                                    Text = "Safety Precautions",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

@@ -100,7 +100,31 @@ namespace FormsGallery
                                 },
                             }
                         },
+
                         new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Recurrent laryngeal nerve palsy, narrow glottic opening, subglottic narrowing (stridor)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+
+                    new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -600,7 +624,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post-operative pain vs. enhanced sedation/respiratory depression ",
+                                    Text = "Post-operative stridor (subglottic edema, vocal cord paralysis)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

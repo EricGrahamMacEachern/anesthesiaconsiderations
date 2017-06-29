@@ -307,7 +307,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Preparations for treating Brugada Exacerbations or cardiast arrest:",
+                                    Text = "Preparations for treating Brugada Exacerbations or cardiac arrest:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

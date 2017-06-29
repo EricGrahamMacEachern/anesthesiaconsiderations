@@ -348,7 +348,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Drugs (e.g. alcohol, acetominophen)",
+                                    Text = "Drugs (e.g. alcohol, acetaminophen)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -454,7 +454,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Total bofy water excess (ascites) with intravascular volume depletion",
+                                    Text = "Total body water excess (ascites) with intravascular volume depletion",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -113,7 +113,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Higher systemic blood pressure will be needed to perfuse abdominal organs, keep abdoimnal perfusion pressure (APP) (systemic blood pressure - intraabdominal pressure) >60mmHg",
+                                        "Higher systemic blood pressure will be needed to perfuse abdominal organs, keep abdominal perfusion pressure (APP) (systemic blood pressure - intraabdominal pressure) >60mmHg",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

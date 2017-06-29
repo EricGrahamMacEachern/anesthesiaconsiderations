@@ -638,7 +638,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Restore volume deficit",
+                                    Text = "Normal saline 20ml/kg IV bolus PRN",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

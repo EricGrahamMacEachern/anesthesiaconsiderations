@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pediatric patient considerations",
+                                    Text = "Preoperative optimization",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -523,27 +523,6 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Pneumothorax\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
                             Padding = 0,
                             Children =
                             {
@@ -745,7 +724,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Anticipate and prepare for hypotension following tumour vein ligation (volume +/- pressors/intropes)",
+                                    Text = "Anticipate and prepare for hypotension following tumour vein ligation (volume +/- pressors/inotropes)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1099,7 +1078,8 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    // Why is . on a new line?
+                                    Text = "1\.",
                                     TextColor = Color.Black,
                                 },
                                 new Label

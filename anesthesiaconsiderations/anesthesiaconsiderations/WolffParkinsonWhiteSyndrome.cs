@@ -140,28 +140,6 @@ namespace FormsGallery
                             }
                         },
 
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Avoid sympathetic stimulation: pain, anxiety, hypovolemia, ketamine \n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
                         new StackLayout
                         {
                             Padding = 0,
@@ -363,7 +341,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "​if unstable, must cardiovert ",
+                                    Text = "​If unstable, must cardiovert ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

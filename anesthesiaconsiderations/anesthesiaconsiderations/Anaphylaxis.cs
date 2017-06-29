@@ -191,7 +191,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "peak inspiratory pressure\n\n",
+                                    Text = "↑ peak inspiratory pressure\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -410,7 +410,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Aggressive fluid resuscitation (many require several litres)",
+                                    Text = "Aggressive fluid resuscitation (may require several litres)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -713,7 +713,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Serum tryptase levels 15 minutes - 3 hours after onset of symptoms",
+                                    Text = "Serum tryptase levels 15 minutes & 3 hours after onset of symptoms",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -453,7 +453,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Use crystalloids as first line, avoid synthetic colloids, consider albumin if substantial amounts of crystallois used ",
+                                    Text = "Use crystalloids as first line, avoid synthetic colloids, consider albumin if substantial amounts of crystalloids used ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -601,7 +601,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Phenyleprhine can be useful if excessive arrythmia from other vasopressor, very high cardiac output states, or as a adjunct vasopressor ",
+                                    Text = "Phenylephrine can be useful if excessive arrythmia from other vasopressor, very high cardiac output states, or as an adjunct vasopressor ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -791,7 +791,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "*Note that routine central venous pressure (CVP) or central venous oxygen saturation (ScvO2) are no longer recommended​",
+                                    Text = "Note that routine monitoring of central venous pressure (CVP) or central venous oxygen saturation (ScvO2) are no longer recommended​",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

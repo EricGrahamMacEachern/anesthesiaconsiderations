@@ -1059,7 +1059,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Fiberoptic to rule out mainstem intubation or ETT obstruction",
+                                    Text = "Fiberoptic scope to rule out mainstem intubation or ETT obstruction",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

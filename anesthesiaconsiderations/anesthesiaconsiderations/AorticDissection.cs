@@ -542,27 +542,7 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(40, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Intervention (surgical or radiologic) of the primary condition is often needed ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
+
                         new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
@@ -649,7 +629,7 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -668,9 +648,12 @@ namespace FormsGallery
                                 },
                             }
                         },
+
+                        // Padding is wrong. Needs an extra 20.
+
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
+                            Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -689,27 +672,7 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(40, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Afterload: reduce sBP to a target of 100-120 mmHg to reduce sheer stress on intima ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
+
                         new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
@@ -731,27 +694,7 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(40, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Afterload: reduce sBP to a target of 100-120 mmHg to reduce sheer stress on intima ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
+
                         new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
@@ -849,8 +792,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text =
-                                        "Main goal is to ↓ cardiac contractility & BP to ↓ intimal stress",
+                                    Text = "Things to avoid:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

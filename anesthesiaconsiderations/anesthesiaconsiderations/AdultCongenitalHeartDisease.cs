@@ -171,7 +171,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Lesion-specific anaesthetic goals & management",
+                                    Text = "Lesion-specific anesthetic goals & management",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -210,6 +210,15 @@ namespace FormsGallery
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
+
+                                // Add another space. 
+
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+
                             }
                         },
                         new StackLayout
@@ -267,7 +276,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Lesion specific hemodynamic goals with focus on PVR, SVR, preload, contractility, HR",
+                                    Text = "Lesion-specific hemodynamic goals with focus on PVR, SVR, preload, contractility, HR",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
