@@ -21,7 +21,7 @@ namespace FormsGallery
                 Intent = TableIntent.Menu,
                 Root = new TableRoot
                     {
-                        new TableSection("Topics")
+                        new TableSection("Menu")
                         {
                             new TextCell
                             {

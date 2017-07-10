@@ -218,7 +218,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↓ CMRO2: barbiturate coma, burst supression, mild hypothermia ",
+                                    Text = "↓ CMRO2: barbiturate coma, burst suppression, mild hypothermia ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

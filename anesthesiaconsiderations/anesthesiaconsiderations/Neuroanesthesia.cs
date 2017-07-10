@@ -21,7 +21,7 @@ namespace FormsGallery
                 Intent = TableIntent.Menu,
                 Root = new TableRoot
                     {
-                        new TableSection("Acute Spinal Cord Injury")
+                        new TableSection("Neuroanesthesia")
                         {
                             new TextCell
                             {

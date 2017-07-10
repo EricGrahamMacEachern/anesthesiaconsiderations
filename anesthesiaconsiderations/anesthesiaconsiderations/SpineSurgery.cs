@@ -91,27 +91,6 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Surgical indication (instability, tumour, kyphoscoliosis, decompression/fusion, infection, congenital)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
                                     Text = "Potential for difficult airway with C-spine disease",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start

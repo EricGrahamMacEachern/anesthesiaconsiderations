@@ -436,7 +436,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Intervention (surgical or radiologic) of the primary condition is often needed ",
+                                        "Epidural documented in case reports but be cautious of high block ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -457,7 +457,51 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Secondary: does not originate in the abdomen or pelvis (e.g., fluid resuscitation, sepsis, burns)\n\n",
+                                        "Peripheral nerve blocks not documented because disease so rare but definitely a consideration given respiratory muscle weakness",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(40, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Avoid interscalene so as to not compromise phrenic nerve",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "General anesthetic vs. respiratory depression (neuraxial is safe)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
