@@ -657,7 +657,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If epidural catheter placed consider leaving it in as labor may ensue with a few hours",
+                                    Text = "If epidural catheter placed consider leaving it in as labor may ensue within a few hours",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -388,7 +388,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Seizures/coma ",
+                                    Text = "Seizures/coma \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -554,7 +554,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Prepare for peri-mortem cesarean section; if no ROSC within 4 minutes of resuscitation, aim for delivery within 5 mintues of resuscitation",
+                                        "Prepare for peri-mortem cesarean section; if no ROSC within 4 minutes of resuscitation, aim for delivery within 5 minutes of resuscitation",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1208,7 +1208,7 @@ namespace FormsGallery
                         },
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {

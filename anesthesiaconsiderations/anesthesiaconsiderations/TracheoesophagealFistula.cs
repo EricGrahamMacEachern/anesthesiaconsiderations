@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Tracheosophageal Fistula",
+                Text = "Tracheoesophageal Fistula",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -159,6 +159,11 @@ namespace FormsGallery
                                     HorizontalOptions = LayoutOptions.Start
                                 },
 
+                                                                new Label
+                                {
+                                    Text = " ",
+                                    TextColor = Color.Black,
+                                },
 
                                 new Image
                                 {
@@ -326,7 +331,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -347,7 +352,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -368,7 +373,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "1. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -520,7 +525,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Low airways pressures if PPV required",
+                                    Text = "Low airway pressures if PPV required",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

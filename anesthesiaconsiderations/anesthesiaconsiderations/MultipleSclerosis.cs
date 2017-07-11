@@ -366,7 +366,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Immunosuppressive medications (steroids, interferon, methotrexate)",
+                                    Text = "Immunosuppressive medications (steroids, interferon, methotrexate)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

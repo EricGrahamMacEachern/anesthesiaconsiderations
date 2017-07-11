@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Teratology Of Fallout",
+                Text = "Teratology Of Fallot",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "RVOT obstruction\n\n",
+                                    Text = "Right ventricular hypertrophy \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -189,7 +189,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "4. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -210,7 +210,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "4. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label

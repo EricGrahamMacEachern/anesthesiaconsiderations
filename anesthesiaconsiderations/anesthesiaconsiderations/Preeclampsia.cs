@@ -449,7 +449,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "BP control (sBP < 160, dBP <110) (SOGC 2014) ",
+                                    Text = "BP control (sBP <160 mmHg, dBP <110 mmHg) (SOGC 2014) ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1062,6 +1062,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
+                                    // Link to Guidelines page called SOGC 2014 guidelines
                                     Text = "SOGC 2014 guidelines:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start

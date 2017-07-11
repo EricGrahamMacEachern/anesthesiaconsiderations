@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid cerebral ischemia: CPP 60-70/MAP 80-90",
+                                    Text = "Avoid cerebral ischemia: CPP 60-70 mmHg/MAP 80-90 mmHg",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -684,7 +684,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Euglycemia: glucose < 11 ",
+                                    Text = "Euglycemia: glucose < 11 mmol/L",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1146,7 +1146,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Maintain around 30 ",
+                                    Text = "Maintain around 30 mmHg",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

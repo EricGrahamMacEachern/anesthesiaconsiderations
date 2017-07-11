@@ -406,7 +406,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "GI: duodenal aresia or stenosis, TEF, Hirschsprungs, celiac disease",
+                                    Text = "GI: duodenal atresia or stenosis, TEF, Hirschsprungs, celiac disease",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -469,7 +469,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Early alzheimer’s dementia\n\n",
+                                    Text = "Early Alzheimer’s dementia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

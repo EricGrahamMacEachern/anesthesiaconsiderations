@@ -267,28 +267,6 @@ namespace FormsGallery
                             }
                         },
 
-
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "BEAU-CHOPS, H'sT's, MgSO4 toxicity, local anesthetic toxicity",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
                         new StackLayout
                         {
                             Padding = 0,

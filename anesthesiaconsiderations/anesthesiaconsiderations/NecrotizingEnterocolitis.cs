@@ -348,7 +348,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Conflict with sepsis/hypovolemia & hemodynamic stabilitys",
+                                    Text = "Conflict with sepsis/hypovolemia & hemodynamic stability",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

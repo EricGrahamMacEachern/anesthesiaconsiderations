@@ -407,7 +407,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Conflicts",
+                                    Text = "Conflicts\n",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -501,6 +501,8 @@ namespace FormsGallery
                                 },
                             }
                         },
+
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -753,6 +755,28 @@ namespace FormsGallery
                                 },
                             }
                         },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text =
+                                        "Once anesthesized, perform staged stimulation/laryngoscopy & topicalization with lidocaine",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
                         new StackLayout
                         {
                             Padding = 0,
@@ -991,7 +1015,7 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "3. ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
                                 },
                                 new Label

@@ -204,6 +204,12 @@ namespace FormsGallery
                                 {
                                     Source = ImageSource.FromFile("dyspneainpregnancy.png"),
                                 },
+
+                                new Label
+                                {
+                                    Text = "\n\n ",
+                                    FontSize = 5,
+                                },
                             }
                         },
 

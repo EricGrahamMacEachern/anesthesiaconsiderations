@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Myasthenic Eaton Lambert Syndrome",
+                Text = "Myasthenic (Eaton Lambert) Syndrome",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

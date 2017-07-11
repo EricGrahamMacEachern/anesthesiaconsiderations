@@ -34,7 +34,7 @@ namespace FormsGallery
                             {
                                 Text = "Bronchopulmonary Dysplasia",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(AirwayForeignBody)
+                                CommandParameter = typeof(AirwayForeignBody) //BronchopulmonaryDysplasia
                             },
 
                             new TextCell

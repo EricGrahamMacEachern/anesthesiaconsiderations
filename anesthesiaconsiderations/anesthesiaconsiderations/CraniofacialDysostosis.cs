@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↑ risk of perioperative cardiovascular complications: MI, CHF, arrhythmias, death",
+                                    Text = "Alpert syndrome:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

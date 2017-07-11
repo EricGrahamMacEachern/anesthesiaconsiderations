@@ -280,7 +280,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pulmonary:\n\n",
+                                    Text = "Pulmonary:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -289,12 +289,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Recurrent aspiration & pulmonary impairment",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -309,12 +309,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Scoliosis & ↑ bleeding risk during scoliosis surgery",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -329,7 +329,7 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
@@ -370,12 +370,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Developmental delay/lack of cooperation",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -390,12 +390,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Seizure d/o",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -410,12 +410,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Hydrocephalus ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -427,47 +427,6 @@ namespace FormsGallery
                                 },
                             }
                         },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Autonomic dysfunction with hemodynamic instability",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Pulmonary: pulmonary edema from low albumin, ↓ forced vital capacity, atelectasis ",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-
 
                         new StackLayout
                         {
@@ -492,12 +451,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "↓ MAC of volatiles & longer emergence ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -512,12 +471,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "↑ sensitivity to muscle relaxants   ",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
@@ -532,12 +491,12 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    FontSize = 16,
                                     Text = "Volatiles & succinylcholine NOT contraindicated",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,

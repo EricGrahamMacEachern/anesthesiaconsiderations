@@ -448,7 +448,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Preoperative: iron, erythropoietin, preoperative autologous donation, coagulopathy",
+                                    Text = "Preoperative: iron, erythropoietin, preoperative autologous donation, correction of coagulopathy",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
