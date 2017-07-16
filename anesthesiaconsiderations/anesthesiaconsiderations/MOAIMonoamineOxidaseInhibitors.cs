@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "(MOAI) Monoamine Oxidase Inhibitors",
+                Text = "(MAOI) Monoamine Oxidase Inhibitors",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -195,7 +195,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Continuation vs discontinuation of MOAI pre-op:",
+                                    Text = "Continuation vs discontinuation of MA0I pre-op:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

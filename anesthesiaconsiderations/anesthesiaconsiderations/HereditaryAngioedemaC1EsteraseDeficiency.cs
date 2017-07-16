@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "A herediatry disorder that results in angioedema without urticaria",
+                                    Text = "A hereditary disorder that results in angioedema without urticaria",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

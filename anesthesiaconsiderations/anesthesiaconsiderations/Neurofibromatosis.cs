@@ -219,7 +219,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Macrocephaly & macroglossia",
+                                    Text = "Macrocephaly & macroglossia Tumors can be very vascular",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -659,7 +659,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neurology: optimize ICP, antieptileptics",
+                                    Text = "Neurology: optimize ICP, antiepileptics",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

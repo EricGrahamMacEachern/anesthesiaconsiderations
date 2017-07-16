@@ -119,110 +119,7 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Etiology: ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Primary: due to injury or disease in the abdominopelvic region (e.g., pancreatitis, abdominal trauma)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(40, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Intervention (surgical or radiologic) of the primary condition is often needed \n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
 
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            //Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Background",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Secondary: does not originate in the abdomen or pelvis (e.g., fluid resuscitation, sepsis, burns)\n\n",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
                         new StackLayout
                         {
                             Padding = 0,
@@ -409,9 +306,10 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
+
+                         new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -423,13 +321,34 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text =
-                                        "Coronary heart disease ",
+                                    Text = "Potential co-existing secondary causes: e.g. multiple myeloma & rheumatoid arthritis",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
+                         new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Medications: steroids/chemotherapy",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
 
                         new StackLayout
                         {
