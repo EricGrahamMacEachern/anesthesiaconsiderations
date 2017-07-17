@@ -112,6 +112,29 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
+                                    Text = "Episodes of myotonia & muscle weakness that may last for several hours|you",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Weakness can occur during rest after strenuous exercise, infusion of potassium, metabolic acidosis, or hypothermia",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start

@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Determine physiological suitability for procedure by assessing postpneumonectomy pulmonary function:",
+                                    Text = "Determine physiological suitability for procedure by assessing predicted postpneumonectomy pulmonary function:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

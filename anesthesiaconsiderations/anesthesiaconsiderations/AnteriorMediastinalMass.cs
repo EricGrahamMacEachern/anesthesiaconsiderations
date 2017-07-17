@@ -71,7 +71,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "The anterior mediastinal space is bordered by sternum anteriorly, the middle mediastinum comprising the heart & great vessels posteriorly, the thoracic inlet superiorly, & the diaphragm inferiorly",
+                                        "The anterior mediastinal space is bordered by the sternum anteriorly, the middle mediastinum comprising the heart & great vessels posteriorly, the thoracic inlet superiorly, & the diaphragm inferiorly",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -869,7 +869,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If pelvic/abdominal neurofibromatas → cesarean section necessary (dystocia, obstructed labor or respiratory embarrassment)",
+                                    Text = "If pelvic/abdominal neurofibromas → cesarean section necessary (dystocia, obstructed labor or respiratory embarrassment)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

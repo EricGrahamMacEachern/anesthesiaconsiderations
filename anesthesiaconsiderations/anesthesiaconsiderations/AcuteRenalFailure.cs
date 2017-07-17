@@ -19,7 +19,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Acute Renal Failure",
+                Text = "Acute Kidney Injury",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

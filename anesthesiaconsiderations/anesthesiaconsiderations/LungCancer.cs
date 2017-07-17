@@ -184,27 +184,6 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "M edications: chemotherapy agents, pulmonary toxicity (bleomycin, mitomycin), cardiac toxicity (doxorubicin), renal toxicity (cisplatin)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
                             Children =

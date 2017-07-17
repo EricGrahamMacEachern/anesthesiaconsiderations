@@ -575,7 +575,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Salbutemol 2.5-5mg via nebulizer q20 minutes",
+                                        "Salbutamol 2.5-5mg via nebulizer q20 minutes",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
