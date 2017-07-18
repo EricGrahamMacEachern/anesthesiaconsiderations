@@ -215,7 +215,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Difficult neuraxial anesthesia: kyphscoliosis, narrow epidural space, prolapsed discs, deformed vertebral bodies ",
+                                        "Difficult neuraxial anesthesia: kyphoscoliosis, narrow epidural space, prolapsed discs, deformed vertebral bodies ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

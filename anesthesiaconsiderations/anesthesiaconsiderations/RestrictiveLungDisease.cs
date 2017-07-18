@@ -219,7 +219,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Higher risk if VC < 15 ml/kg, FVC <50% or 500cc, or pCO2 >45",
+                                    Text = "Higher risk if VC < 15 ml/kg, FVC <50% or 500cc, or pCO2 >45 cmH2O",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

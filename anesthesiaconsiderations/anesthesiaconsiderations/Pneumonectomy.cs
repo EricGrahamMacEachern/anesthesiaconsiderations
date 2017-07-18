@@ -288,6 +288,27 @@ namespace FormsGallery
                             }
                         },
 
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Patient factors: difficult airway, anatomical distortion",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
 
                         new StackLayout
                         {
@@ -366,7 +387,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Lung protective ventilation with open lung techniques (tidal volume 4-6cc/kg, peak pressure < 40, plateau pressure < 30, PEEP/FiO2 for oxygen saturation > 90%) ",
+                                    Text = "Lung protective ventilation with open lung techniques (tidal volume 4-6cc/kg, peak pressure < 40 cmH2O, plateau pressure < 30 cmH2O, PEEP/FiO2 for oxygen saturation > 90%) ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

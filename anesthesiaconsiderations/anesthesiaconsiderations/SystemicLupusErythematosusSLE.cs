@@ -77,26 +77,6 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
-                        {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "C-spine arthritis",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
 
                         new StackLayout
                         {
@@ -555,7 +535,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential coagulopathy may contraindicate use of neuraxial → ensure early hematology consult ↑ PTT can have 2 causes: ",
+                                    Text = "Potential coagulopathy may contraindicate use of neuraxial → ensure early hematology consult",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

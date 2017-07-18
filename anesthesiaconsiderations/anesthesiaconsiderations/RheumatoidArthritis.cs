@@ -618,7 +618,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "On X-ray distance from the anterior arch of the atlas to the odontoid process is > 3 mm confirms the presence of atlantoaxial subluxation",
+                                    Text = "On X-ray distance from the anterior arch of the atlas to the odontoid process > 3 mm confirms the presence of atlantoaxial subluxation",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

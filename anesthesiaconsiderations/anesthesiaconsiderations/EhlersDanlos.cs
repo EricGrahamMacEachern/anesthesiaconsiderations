@@ -91,6 +91,27 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
+                                    Text = "Characterized by skin hyperextensibility, joint hypermobility, & tissue fragility",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Classified into 6 types: classic, hypermobility, vascular, kyphoscoliosis, arthrochalasia, dermatosparaxis",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
