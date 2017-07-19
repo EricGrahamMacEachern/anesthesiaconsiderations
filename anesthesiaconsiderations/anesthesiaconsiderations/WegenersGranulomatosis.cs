@@ -70,27 +70,6 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Considerations",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
                                     Text = "Potential difficult airway: laryngeal stenosis, subglottic stenosis, tracheal stenosis, friable bleeding tissue",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
@@ -112,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Multisystem granulomatis disease:",
+                                    Text = "Multisystem granulomatous disease:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

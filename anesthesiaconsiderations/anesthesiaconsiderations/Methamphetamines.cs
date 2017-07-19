@@ -143,20 +143,21 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 16,
-                                    Text = "Chronic amphetamine abuse:",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Chronic amphetamine abuse.",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },

@@ -133,7 +133,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Burns: carbon monoxide poisoining, smoke inhalation",
+                                    Text = "Burns: carbon monoxide poisoning, smoke inhalation",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -342,7 +342,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Downside is formation of methhemoglobin & can cause hypotension, so hydroxycobalamin may be preferred",
+                                    Text = "Downside is formation of methemoglobin & can cause hypotension, so hydroxycobalamin may be preferred",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

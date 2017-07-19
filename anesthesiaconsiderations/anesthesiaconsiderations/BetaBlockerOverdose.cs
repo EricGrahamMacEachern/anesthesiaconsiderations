@@ -738,7 +738,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Ventricular assist devie (VAD)",
+                                        "Ventricular assist device (VAD)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

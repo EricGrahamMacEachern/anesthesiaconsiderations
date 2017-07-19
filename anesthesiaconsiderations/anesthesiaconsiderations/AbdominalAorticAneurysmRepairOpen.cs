@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Abdominal Aortic Aneurysm (AAA) Repair (Open)",
+                Text = "Abdominal Aortic Aneurysm (AAA) Repair (Open)\n\n",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -99,6 +99,7 @@ namespace FormsGallery
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = 0,
@@ -135,28 +136,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Associated comorbid disease (coronary disease, hypertension diabetes, renal failure, COPD, smoking)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Perioperative organ dysfunction (cardiac, renal, visceral, spinal cord ischemia) & complication (MI/renal falure/heart failure/paralysis/death)",
+                                        "Perioperative organ dysfunction (cardiac, renal failure, visceral, spinal cord ischemia) & complication (MI/renal falure/heart failure/paralysis/death)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

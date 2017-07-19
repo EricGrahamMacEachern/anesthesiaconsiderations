@@ -9,7 +9,7 @@ namespace FormsGallery
         {
             Label header = new Label
             {
-                Text = "MDMA Ectasy",
+                Text = "MDMA Ecstasy",
                 FontSize = 50,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalOptions = LayoutOptions.Center
@@ -20,7 +20,7 @@ namespace FormsGallery
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 Content = new Label
                 {
-                    Text = "MDMA Ectasy",
+                    Text = "MDMA Ecstasy",
 
                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 }
