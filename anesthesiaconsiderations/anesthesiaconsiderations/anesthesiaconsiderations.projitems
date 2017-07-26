@@ -35,6 +35,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)AnorexiaNervosa.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AntepartumHemorrhage.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AnteriorMediastinalMass.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)AntibioticProphylaxisforInfectiveEndocarditisIEGuidelines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AorticDissection.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AorticRegurgitation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)AorticStenosis.cs" />
@@ -54,6 +55,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)BrugadaSyndrome.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BullousLungDisease.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Burns.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CanadianDiabetesAssociationGlycemicControlGuidelines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Carcinoid.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Cardiac.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CardiacContusion.cs" />
@@ -106,6 +108,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)FormerPrematureInfant.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)G6PDDeficiency.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GlycogenStorageDisorders.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Guidelines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)GuillainBarreSyndromeGBS.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Hematology.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Hemophilia.cs" />

@@ -837,7 +837,7 @@ namespace FormsGallery
                                 new Image
                                 {
                                     Source = ImageSource.FromFile("treatmentchoices.png")
-                                }
+                                },
 
                                 new Label
                                 {

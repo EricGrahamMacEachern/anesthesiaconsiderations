@@ -1079,7 +1079,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     // Why is . on a new line?
-                                    Text = "1\.",
+                                    Text = "1.",
                                     TextColor = Color.Black,
                                 },
                                 new Label
