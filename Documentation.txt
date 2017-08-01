@@ -1,0 +1,8 @@
+This app is quite simple. Here are some helpful links. 
+
+https://www.xamarin.com/forms
+
+My posts about this project are here: https://forums.xamarin.com/profile/224596/EricGrahamMacEachern
+
+Alessandro was helpfulL: https://github.com/acaliaro
+

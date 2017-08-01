@@ -80,6 +80,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)CriticalCare.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CroupLaryngotracheobronchitis.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CrushInjuries.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)CSSPerioperativeGuidelines.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CushingsSyndrome.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CyanideToxicity.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)CysticFibrosis.cs" />

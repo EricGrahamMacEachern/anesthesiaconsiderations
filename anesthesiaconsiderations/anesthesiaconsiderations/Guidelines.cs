@@ -34,7 +34,7 @@ namespace FormsGallery
                             {
                                 Text = "Canadian Diabetes Association Glycemic Control Guidelines ",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(Anaphylaxis)
+                                CommandParameter = typeof(CanadianDiabetesAssociationGlycemicControlGuide)
                             },
 
                             new TextCell
